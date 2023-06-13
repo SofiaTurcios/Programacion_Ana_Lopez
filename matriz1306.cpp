@@ -24,7 +24,14 @@ int main() {
     	}
     	cout<<"la suma de las filas es: "<<i+1<<suma<<endl;
 	}
-
+	
+	for(int i=0;i<fila;i++){
+		int suma2=0;
+		for(int a=0;a<columna;a++){
+		suma2 +=matriz[i][a];
+    	}
+    	cout<<"la suma de las columnas es: "<<i+1<<suma2<<endl;
+	}
 
 	return 0;
 }
